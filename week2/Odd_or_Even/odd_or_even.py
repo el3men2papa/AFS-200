@@ -1,6 +1,6 @@
 
 #it will conver the input number into int
-m = int(input("Enter number"))
+m = int(input("Enter number: "))
 
 #it will take the input number divided by 2 to get odd or even
 if m % 2 == 0:
