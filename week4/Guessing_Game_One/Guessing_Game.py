@@ -46,7 +46,7 @@ def main():
             message = checkUserNumber(userNumber, randomNumber)
 
 #This print out the message with the count of inputs
-        print(message, "It took you", userNumberOfGuesses, "guesses to get the right number")
+        print(message, "It took you", userNumberOfGuesses, "guesses to get to the right number")
         userCongratulation = True
 #This will ask the user to see if they would like to continue the game or exit
         answer = input("Do you want to continue? Y or N :" )
